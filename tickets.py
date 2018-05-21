@@ -1,0 +1,16 @@
+#Calvin Low 
+#Shows the total price of a trip from one zone to another based on the base price and 1.75 per zone traveled.
+print("Welcome to the train station!")
+print()
+print("We charge 3.50 as the base fare and 1.75 per zone that you travel through.")
+print()
+zone_1 = float(input("Which zone would you like to start out in?"))
+print()
+zone_2 = float(input("Which zone would you like to travel to?"))
+zone_traveled = abs(zone_1 - zone_2)
+zone_price = float(3.50) + zone_traveled * float(1.75)
+print()
+print("Okay, the cost of your trip will be", "$"+str(zone_price))
+print()
+print("Have a good trip!")
+input('Press ENTER to exit')

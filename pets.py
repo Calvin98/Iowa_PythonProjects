@@ -1,0 +1,5 @@
+color = input("What is your favorite color?") 
+animal = input("What is your favorite animal?")
+number = input("What is your favorite number?")
+print("Ok, I guess your ideal pet would be a")
+print(color + " " + animal + " " + "with" + " " + number + " legs!")
